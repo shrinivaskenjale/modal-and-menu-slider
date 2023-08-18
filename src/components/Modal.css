@@ -1,0 +1,50 @@
+.modal-container {
+  background: rgb(0, 0, 0, 0.6);
+  position: fixed;
+  inset: 0;
+  display: none;
+}
+
+.modal-container.show-modal {
+  display: block;
+}
+
+.modal {
+  background: white;
+  border-radius: var(--radius);
+  box-shadow: 0 0 0.5rem rgb(0, 0, 0, 0.3);
+  overflow: hidden;
+  width: 90vw;
+  max-width: 24rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: modal-open 0.3s ease-in-out;
+}
+
+@keyframes modal-open {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.modal-header {
+  background: var(--primary-color);
+  color: white;
+  padding: 1rem;
+}
+.modal-content {
+  padding: 1rem;
+}
+
+.close-btn {
+  position: absolute;
+  background: transparent;
+  font-size: 1.5rem;
+  top: 0;
+  right: 0;
+}

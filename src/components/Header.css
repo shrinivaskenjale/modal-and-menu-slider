@@ -1,0 +1,17 @@
+header {
+  background: var(--primary-color);
+  color: white;
+  position: relative;
+  padding: 2.5rem 1rem;
+  text-align: center;
+  font-size: 130%;
+}
+
+header p {
+  margin: 2rem 0;
+}
+
+.cta-btn {
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+}

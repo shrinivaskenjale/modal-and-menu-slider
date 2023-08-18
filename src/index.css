@@ -1,0 +1,46 @@
+:root {
+  --radius: 0.5rem;
+  --line-height: 1.5;
+  --primary-color: #30336b;
+  --secondary-color: #be2edd;
+  --transition: 0.3s all ease-in-out;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: var(--line-height);
+}
+
+input,
+button {
+  font-family: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+button {
+  background: var(--secondary-color);
+  border: transparent;
+  border-radius: var(--radius);
+  color: white;
+  cursor: pointer;
+  padding: 0.5rem 0.75rem;
+}
+
+svg {
+  display: grid;
+  place-items: center;
+}

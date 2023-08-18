@@ -1,0 +1,19 @@
+.signup-modal form div {
+  margin: 1rem 0;
+}
+
+.signup-modal input {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.signup-modal label {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.signup-modal button {
+  display: block;
+  margin: 0 auto;
+}
